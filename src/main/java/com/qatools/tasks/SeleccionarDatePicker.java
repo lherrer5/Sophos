@@ -20,6 +20,7 @@ public class SeleccionarDatePicker implements Task {
         actor.attemptsTo(
                 Scroll.to(OPCION_WIDGETS),
                 Click.on(OPCION_WIDGETS),
+                Scroll.to(OPCION_DATE_PICKER),
                 Click.on(OPCION_DATE_PICKER),
                Click.on(CUADRO_FECHA),
                Click.on(FECHA_ESCOGIDA),
