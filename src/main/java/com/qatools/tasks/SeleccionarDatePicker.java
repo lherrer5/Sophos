@@ -22,10 +22,11 @@ public class SeleccionarDatePicker implements Task {
                 Click.on(OPCION_WIDGETS),
                 Scroll.to(OPCION_DATE_PICKER),
                 Click.on(OPCION_DATE_PICKER),
-               Click.on(CUADRO_FECHA),
-               Click.on(FECHA_ESCOGIDA),
-              Click.on(DATE_TIME),
-             Click.on(HORA_FECHA)
+                Click.on(CUADRO_FECHA),
+                Click.on(FECHA_ESCOGIDA),
+                Click.on(DATE_TIME),
+                Scroll.to(HORA_FECHA),
+                Click.on(HORA_FECHA)
         );
     }
     public static Performable SeleccionarMenuWidgets() {
